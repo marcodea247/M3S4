@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  background-color: #def;
+}
+
+main {
+  display: flex;
+  margin-top: 1rem;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.pricing-card {
+  margin: 10px; 
+  padding: 25px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  row-gap: 2rem;  
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+
+}
+
+.pricing-container{
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  gap :20px;
+}
